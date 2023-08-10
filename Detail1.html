@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, ititial-scale=1.0">
+    <!--
+            - primary meta tags
+        -->
+    <title>Fashion Git | Details</title>
+    <meta name="title" content="responsive ecommerce clothing website">
+    <meta name="description" content="This is an eCommerce html index made for clothing website">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--
+            - favicon
+        -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/svg+xml">
+
+    <!--
+            - google font link
+        -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/font.css">
+
+    <!--
+            - swiper css
+        -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+    <!--
+            - custom css links
+        -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!--
+            - preload images
+        -->
+    <link rel="preload" as="image" href="assets/image/hero-banner3.png">
+</head>
+
+<body>
+    <!--
+                - #HEADER
+            -->
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">Fashion Git</a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="product.html" class="navbar-link">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact.html" class="navbar-link">Contact us</a>
+                    </li>
+
+                    <li>
+                        <a href="About.html" class="navbar-link">About</a>
+                    </li>
+                </ul>
+
+                <button class="card-btn">
+                    <a href="Cart.html">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span class="span">Cart</span>
+                    </a>
+                </button>
+
+                <a href="Login.html" class="btn">Login</a>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+                <box-icon name='menu' color='#ffffff'></box-icon>
+            </button>
+        </div>
+    </header>
+
+    <!-- Product details -->
+
+    <section id="prodetails" class="section-p1">
+
+        <div class="single-pro-image">
+            <img src="assets\image\football-jerseys-master\Airtricity Premier Division\450px\bohemians.png" width="100%"
+                id="MainImg" alt="" />
+
+        </div>
+
+        <div class="single-pro-details">
+            <h5>MANGO</h5>
+            <h4> Bohemians</h4>
+            <h2>$ 100</h2>
+            <select name="" id="select">
+                <option value="">Select Size</option>
+                <option value="">XXL</option>
+                <option value="">XL</option>
+                <option value="">Large</option>
+                <option value="">Small</option>
+            </select>
+
+            <input type="number" name="" id="" value="1" min="1" />
+
+            <h4 style="padding: 20px 0 15px 0;">Product Details</h4>
+            <span>The F5 Pro Football Jersey is our premium slim fit top. Its moisture wicking ultra.dry technology and
+                functional
+                game-ready cut enables you to play at your potential through the whole 90 minutes.
+
+            </span>
+            <a href="#" class="navbar-link">
+                <button class="normal" onclick="addCartItems({
+            name: 'Bohemians',
+            image: 'assets/image/bohemians.png',
+            price: 100.00,
+          }); addCartItemsTotal(100.00);
+          ">Add To Cart</button>
+            </a>
+        </div>
+        </div>
+
+    </section>
+
+    <!--
+            - custom js link
+        -->
+    <script src="assets/js/script.js"></script>
+
+    <!--
+           
+            - ionicon link
+        -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="assets/js/js.js"></script>
+
+</body>
+
+</html>

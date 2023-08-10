@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, ititial-scale=1.0">
+    <!--
+            - primary meta tags
+        -->
+    <title>Fashion Git | product</title>
+    <meta name="title" content="responsive ecommerce clothing website">
+    <meta name="description" content="This is an eCommerce html index made for clothing website">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--
+            - favicon
+        -->
+    <link rel="shortcut icon" href="assets\image\tshirt.png" type="image/svg+xml">
+
+    <!--
+            - google font link
+        -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/font.css">
+
+    <!--
+            - swiper css
+        -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+
+    <!--
+            - custom css links
+        -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!--
+            - preload images
+        -->
+    <link rel="preload" as="image" href="assets/image/hero-banner3.png">
+</head>
+
+<body>
+
+    <!--
+                - #HEADER
+            -->
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">Fashion Git</a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="product.html" class="navbar-link">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Contact.html" class="navbar-link">Contact us</a>
+                    </li>
+
+                    <li>
+                        <a href="About.html" class="navbar-link">About</a>
+                    </li>
+                </ul>
+
+                <button class="card-btn">
+                    <a href="Cart.html">
+                        <i class='bx bx-shopping-bag' style='color:#ffffff'></i>
+                        <span class="span">Cart</span>
+                    </a>
+                </button>
+
+                <a href="Login.html" class="btn">Login</a>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+                <box-icon name='menu' color='#ffffff'></box-icon>
+            </button>
+        </div>
+    </header>
+
+    <!--
+                    #OFFER
+                -->
+
+    <section class="offer has-bg-image" style="background-image: url('assets/image/hero-banner9.jpg');">
+        <div class="container-offer">
+            <div class="offer-card">
+                <h2 class="title card-title">
+                    Sale
+                </h2>
+
+                <p class="card-text">
+                    New Arrival Are Waiting You
+                </p>
+
+                <a href="#new" class="btn btn-secondary">
+                    <span class="span">
+                        <p class="btn-col">Shop Now</p>
+                    </span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--
+                    - # NEW PRODUCTS
+                -->
+
+    <section class="section product" aria-label="prodct" id="new">
+        <div class="container">
+            <h2 class="h2 section-title title text-center">Explore new arrivals</h2>
+
+            <ul class="product-list has-scrollbar">
+
+                <li class="scrollbar-item">
+                    <div class="product-card text-center">
+
+                        <div class="card-banner">
+
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Airtricity Premier Division\450px\bohemians.png"
+                                    width="448" height="470" loading="lazy" alt="Short Sleeve Shirt 01"
+                                    class="img-cover">
+                            </figure>
+
+                            <a href="Detail1.html" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3 class="h4 title">
+                                <a href="#" class="card-title">Bohemians</a>
+                            </h3>
+
+                            <span class="price">$100.00</span>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="product-card text-center">
+
+                        <div class="card-banner">
+
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Airtricity Premier Division\450px\cork-city.png"
+                                    width="448" height="470" loading="lazy" alt="Short Sleeve Shirt 02"
+                                    class="img-cover">
+                            </figure>
+
+                            <a href="Detail2.html" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3 class="h4 title">
+                                <a href="#" class="card-title">Cork-city</a>
+                            </h3>
+
+                            <span class="price">$100.00</span>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="scrollbar-item">
+                    <div class="product-card text-center">
+
+                        <div class="card-banner">
+
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Airtricity Premier Division\450px\derry-city.png"
+                                    width="448" height="470" loading="lazy" alt="Comfort Dress" class="img-cover">
+                            </figure>
+
+                            <a href="Detail3.html" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+
+                        </div>
+
+                        <div class="card-content">
+
+                            <h3 class="h4 title">
+                                <a href="#" class="card-title">Derry-city</a>
+                            </h3>
+
+                            <span class="price">$180.00</span>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="section feature" aria-label="feature-label" id="featured">
+        <div class="container">
+            <h2 class="h2 section-title title text-center" id="feature-label">
+                Featured products
+            </h2>
+
+            <ul class="feature-list">
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\arsenal.png"
+                                    width="448" height="470" loading="lazy" alt="Men Summer Set" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Arsenal</a>
+                            </h3>
+                            <span class="price">$200.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\everton.png"
+                                    width="448" height="470" loading="lazy" alt="Women Summer Set" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Everton</a>
+                            </h3>
+                            <span class="price">$200.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\liverpool.png"
+                                    width="448" height="470" loading="lazy" alt="Comfort Dress" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Liverpool</a>
+                            </h3>
+                            <span class="price">$150.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\man-city.png"
+                                    width="448" height="470" loading="lazy" alt="Comfort Scirt" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Man-City</a>
+                            </h3>
+                            <span class="price">$110.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\southampton.png"
+                                    width="448" height="470" loading="lazy" alt="Flower Dress" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Southampton</a>
+                            </h3>
+                            <span class="price">$170.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\newcastle.png"
+                                    width="448" height="470" loading="lazy" alt="Comfort Hoodie" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Newcastle</a>
+                            </h3>
+                            <span class="price">$170.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\chelsea.png"
+                                    width="448" height="470" loading="lazy" alt="Comfort Long Sleeve" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Chelsea</a>
+                            </h3>
+                            <span class="price">$120.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\norwich.png"
+                                    width="448" height="470" loading="lazy" alt="Men Oxford Shirt" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Norwich</a>
+                            </h3>
+                            <span class="price">$110.00</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="product-card text-center">
+                        <div class="card-banner">
+                            <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                <img src="assets\image\football-jerseys-master\Barclays Premier League\450px\sunderland.png"
+                                    width="448" height="470" loading="lazy" alt="Tote Bag" class="img-cover">
+                            </figure>
+
+                            <a href="#" class="btn product-btn">
+                                <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                <span class="span">Details</span>
+                            </a>
+                        </div>
+
+                        <div class="card-content">
+                            <h3 class="h3 title">
+                                <a href="#" class="card-title">Sunderland </a>
+                            </h3>
+                            <span class="price">$50.00</span>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+
+    </section>
+    <!--
+        - #FOOTER
+    -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        Fashion Git
+                    </a>
+
+                    <p class="footer-text">
+                        Main factor that sets us apart competition allows deliver a specialist
+                        business consultancy service applies its ranging experience
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="https://www.instagram.com/foofstyle/" class="social-link">
+                                <box-icon name='instagram-alt' type='logo'></box-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <box-icon name='facebook-circle' type='logo'></box-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <box-icon name='twitter' type='logo'></box-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title title">
+                            Contact info
+                        </p>
+
+                        <address class="footer-text">
+                            Yangon, Burma
+                        </address>
+                    </li>
+
+                    <li>
+                        <a href="mailto:info.foofstyle@support.com" class="email">
+                            mailto: info.fashiongit@support.com
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="+95 *** *** ****" class="email">
+                            +95 *** *** ****
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="footer-list">
+                    <p class="footer-list-title title">
+                        Subscribe newsletter
+                    </p>
+
+                    <input type="email" name="email_address" placeholder="Enter your email address" required
+                        autocomplete="off" class="input-field">
+
+                    <button class="btn btn-secondary">Subscribe</button>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <div class="wrapper">
+
+                    <div class="link-wrapper">
+                        <a href="#" class="footer-bottom-link">Portfolio</a>
+                        <a href="#" class="footer-bottom-link">Our Team</a>
+                        <a href="#" class="footer-bottom-link">Pricing Plan</a>
+                        <a href="#" class="footer-bottom-link">Services</a>
+                        <a href="Contact.html" class="footer-bottom-link">Contact Us</a>
+                    </div>
+
+                    <div class="link-wrapper">
+                        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    </div>
+
+                </div>
+
+                <p class="copyright">
+                    &copy; 2023 Koufax', All Rights Reserved
+                </p>
+
+            </div>
+
+
+
+        </div>
+
+    </footer>
+
+
+    <!--
+                - custom js link
+            -->
+    <script src="assets/js/script.js"></script>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
