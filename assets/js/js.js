@@ -1,14 +1,15 @@
 // Users Lists //
-if (!sessionStorage.getItem("users")) {
-  const users = [
-    {
-      email: "default@gmail.com",
-      password: "12345",
-    },
-  ];
-  sessionStorage.setItem("users", JSON.stringify(users));
-}
-const users = JSON.parse(sessionStorage.getItem("users"));
+// if (!sessionStorage.getItem("users")) {
+//   const users = [
+//     {
+//       email: "default@gmail.com",
+//       password: "12345",
+
+//     },
+//   ];
+//   sessionStorage.setItem("users", JSON.stringify(users));
+// }
+// const users = JSON.parse(sessionStorage.getItem("users"));
 //
 //
 //
