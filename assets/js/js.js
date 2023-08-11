@@ -1,15 +1,15 @@
 // Users Lists //
-// if (!sessionStorage.getItem("users")) {
-//   const users = [
-//     {
-//       email: "default@gmail.com",
-//       password: "12345",
+if (!sessionStorage.getItem("users")) {
+  const users = [
+    {
+      email: "default@gmail.com",
+      password: "12345",
 
-//     },
-//   ];
-//   sessionStorage.setItem("users", JSON.stringify(users));
-// }
-// const users = JSON.parse(sessionStorage.getItem("users"));
+    },
+  ];
+  sessionStorage.setItem("users", JSON.stringify(users));
+}
+const users = JSON.parse(sessionStorage.getItem("users"));
 //
 //
 //
@@ -47,7 +47,8 @@ function login() {
 
   if (user) {
     alert("Login Successful!");
-  } else {
+  }
+  else {
     alert("Invalid username or password.");
   }
 }
@@ -76,6 +77,7 @@ function register() {
     sessionStorage.setItem("users", JSON.stringify(users));
 
     alert("Account successfully Register!");
+    windows.href.location = "Login.html";
   }
 }
 //
