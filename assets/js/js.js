@@ -47,6 +47,7 @@ function login() {
 
   if (user) {
     alert("Login Successful!");
+
   }
   else {
     alert("Invalid username or password.");
@@ -113,7 +114,7 @@ function generateCartItems(cartItems) {
             </a>
         </td>
         <td>
-            <img src=${image} alt=""/>
+            <img src=${image} alt=""/ >
         </td>
         <td>${name}</td>
         <td class="cart-price">$ ${price}</td>

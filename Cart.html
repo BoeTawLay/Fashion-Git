@@ -53,7 +53,7 @@
 
   <header class="header" data-header>
     <div class="container">
-      <a href="#" class="logo">Fashion Git</a>
+      <a href="index.html" class="logo">Fashion Git</a>
 
       <nav class="navbar" data-navbar>
         <ul class="navbar-list">
@@ -129,13 +129,18 @@
           <td>Free</td>
         </tr>
         <tr>
+          <td>Payment</td>
+          <td>Card/..............</td>
+        </tr>
+        <tr>
           <td><b>Total</b></td>
           <td class="cart-total" style="font-weight: 600" id="totalPrice">
             $ 799
           </td>
         </tr>
       </table>
-      <button class="normal" id="btn-purchase">Proceed to Checkout</button>
+      <a href="index.html"><button class="normal" id="btn-purchase" onclick="thankYou()">Proceed to
+          Checkout</button></a>
     </div>
   </section>
 
@@ -153,6 +158,9 @@
   <script>
     generateCartItems(cartItems);
     sumCartItemsprice(cartItemsTotal);
+    function thankYou() {
+      alert("Thank you for Shopping!")
+    }
   </script>
 </body>
 
